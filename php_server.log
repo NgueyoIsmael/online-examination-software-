@@ -1,0 +1,211 @@
+[Wed Dec 31 11:57:31 2025] PHP 8.3.6 Development Server (http://0.0.0.0:8000) started
+[Wed Dec 31 11:57:36 2025] 127.0.0.1:50660 Accepted
+[Wed Dec 31 11:57:36 2025] 127.0.0.1:50660 [200]: HEAD /auth/login.php
+[Wed Dec 31 11:57:36 2025] 127.0.0.1:50660 Closing
+[Wed Dec 31 12:01:07 2025] 127.0.0.1:40028 Accepted
+[Wed Dec 31 12:01:07 2025] 127.0.0.1:40028 [200]: GET /auth/login.php
+[Wed Dec 31 12:01:07 2025] 127.0.0.1:40028 Closing
+[Wed Dec 31 12:01:08 2025] 127.0.0.1:51192 Accepted
+[Wed Dec 31 12:01:08 2025] 127.0.0.1:51192 [200]: GET /public/css/style.css
+[Wed Dec 31 12:01:08 2025] 127.0.0.1:51192 Closing
+[Wed Dec 31 12:01:08 2025] 127.0.0.1:51208 Accepted
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51208 [302]: POST /auth/login.php
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51208 Closing
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51214 Accepted
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51214 [200]: GET /student/dashboard.php
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51214 Closing
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51230 Accepted
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51230 [200]: GET /public/css/style.css
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51230 Closing
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51240 Accepted
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51240 [200]: GET /student/create_custom_exam.php
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51240 Closing
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51250 Accepted
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51250 [200]: GET /public/css/style.css
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51250 Closing
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51258 Accepted
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51258 [302]: POST /student/create_custom_exam.php
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51258 Closing
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51270 Accepted
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51270 [200]: GET /student/dashboard.php
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51270 Closing
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51280 Accepted
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51280 [200]: GET /public/css/style.css
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51280 Closing
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51296 Accepted
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51296 [302]: POST /student/create_attempt.php
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51296 Closing
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51308 Accepted
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51308 [200]: GET /student/take_exam.php?id=1
+[Wed Dec 31 12:01:09 2025] 127.0.0.1:51308 Closing
+[Wed Dec 31 12:01:10 2025] 127.0.0.1:51318 Accepted
+[Wed Dec 31 12:01:10 2025] 127.0.0.1:51318 [302]: POST /student/submit_exam.php
+[Wed Dec 31 12:01:10 2025] 127.0.0.1:51318 Closing
+[Wed Dec 31 12:01:10 2025] 127.0.0.1:51322 Accepted
+[Wed Dec 31 12:01:10 2025] 127.0.0.1:51322 [200]: GET /student/result.php?id=1
+[Wed Dec 31 12:01:10 2025] 127.0.0.1:51322 Closing
+[Wed Dec 31 12:01:10 2025] 127.0.0.1:51330 Accepted
+[Wed Dec 31 12:01:10 2025] 127.0.0.1:51330 [200]: GET /public/css/style.css
+[Wed Dec 31 12:01:10 2025] 127.0.0.1:51330 Closing
+[Wed Dec 31 12:22:41 2025] 127.0.0.1:53264 Accepted
+[Wed Dec 31 12:22:41 2025] 127.0.0.1:53264 [200]: GET /auth/login.php
+[Wed Dec 31 12:22:41 2025] 127.0.0.1:53264 Closing
+[Wed Dec 31 12:22:41 2025] 127.0.0.1:53274 Accepted
+[Wed Dec 31 12:22:41 2025] 127.0.0.1:53274 [200]: GET /public/css/style.css
+[Wed Dec 31 12:22:41 2025] 127.0.0.1:53274 Closing
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53286 Accepted
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53286 [302]: POST /auth/login.php
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53286 Closing
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53288 Accepted
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53288 [200]: GET /student/dashboard.php
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53288 Closing
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53304 Accepted
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53304 [200]: GET /public/css/style.css
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53304 Closing
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53316 Accepted
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53316 [200]: GET /student/create_custom_exam.php
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53316 Closing
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53326 Accepted
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53326 [200]: GET /public/css/style.css
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53326 Closing
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53334 Accepted
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53334 [302]: POST /student/create_custom_exam.php
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53334 Closing
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53348 Accepted
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53348 [200]: GET /student/dashboard.php
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53348 Closing
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53364 Accepted
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53364 [200]: GET /public/css/style.css
+[Wed Dec 31 12:22:43 2025] 127.0.0.1:53364 Closing
+[Wed Dec 31 12:23:04 2025] 127.0.0.1:49824 Accepted
+[Wed Dec 31 12:23:04 2025] 127.0.0.1:49824 [200]: GET /auth/login.php
+[Wed Dec 31 12:23:04 2025] 127.0.0.1:49824 Closing
+[Wed Dec 31 12:23:04 2025] 127.0.0.1:49828 Accepted
+[Wed Dec 31 12:23:04 2025] 127.0.0.1:49828 [200]: GET /public/css/style.css
+[Wed Dec 31 12:23:04 2025] 127.0.0.1:49828 Closing
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49842 Accepted
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49842 [302]: POST /auth/login.php
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49842 Closing
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49856 Accepted
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49856 [200]: GET /student/dashboard.php
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49856 Closing
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49870 Accepted
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49870 [200]: GET /public/css/style.css
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49870 Closing
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49880 Accepted
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49880 [200]: GET /student/create_custom_exam.php
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49880 Closing
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49890 Accepted
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49890 [200]: GET /public/css/style.css
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49890 Closing
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49904 Accepted
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49904 [302]: POST /student/create_custom_exam.php
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49904 Closing
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49918 Accepted
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49918 [200]: GET /student/dashboard.php
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49918 Closing
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49928 Accepted
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49928 [200]: GET /public/css/style.css
+[Wed Dec 31 12:23:06 2025] 127.0.0.1:49928 Closing
+[Wed Dec 31 12:23:39 2025] 127.0.0.1:40698 Accepted
+[Wed Dec 31 12:23:39 2025] 127.0.0.1:40698 [200]: GET /auth/login.php
+[Wed Dec 31 12:23:39 2025] 127.0.0.1:40698 Closing
+[Wed Dec 31 12:23:39 2025] 127.0.0.1:40712 Accepted
+[Wed Dec 31 12:23:39 2025] 127.0.0.1:40712 [200]: GET /public/css/style.css
+[Wed Dec 31 12:23:39 2025] 127.0.0.1:40712 Closing
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40718 Accepted
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40718 [302]: POST /auth/login.php
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40718 Closing
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40730 Accepted
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40730 [200]: GET /student/dashboard.php
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40730 Closing
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40742 Accepted
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40742 [200]: GET /public/css/style.css
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40742 Closing
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40744 Accepted
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40744 [200]: GET /student/create_custom_exam.php
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40744 Closing
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40754 Accepted
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40754 [200]: GET /public/css/style.css
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40754 Closing
+[Wed Dec 31 12:23:41 2025] 127.0.0.1:40762 Accepted
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40762 [302]: POST /student/create_custom_exam.php
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40762 Closing
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40774 Accepted
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40774 [200]: GET /student/dashboard.php
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40774 Closing
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40790 Accepted
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40790 [200]: GET /public/css/style.css
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40790 Closing
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40802 Accepted
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40802 [302]: POST /student/create_attempt.php
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40802 Closing
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40814 Accepted
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40814 [200]: GET /student/take_exam.php?id=3
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40814 Closing
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40820 Accepted
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40820 [200]: GET /public/css/style.css
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40820 Closing
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40830 Accepted
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40830 [302]: POST /student/submit_exam.php
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40830 Closing
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40846 Accepted
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40846 [200]: GET /student/result.php?id=3
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40846 Closing
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40862 Accepted
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40862 [200]: GET /public/css/style.css
+[Wed Dec 31 12:23:42 2025] 127.0.0.1:40862 Closing
+[Wed Dec 31 12:26:44 2025] 127.0.0.1:33394 Accepted
+[Wed Dec 31 12:26:45 2025] 127.0.0.1:33394 [302]: POST /auth/login.php
+[Wed Dec 31 12:26:45 2025] 127.0.0.1:33394 Closing
+[Wed Dec 31 12:26:45 2025] 127.0.0.1:33406 Accepted
+[Wed Dec 31 12:26:45 2025] 127.0.0.1:33406 [302]: POST /admin/add_question.php?exam_id=1
+[Wed Dec 31 12:26:45 2025] 127.0.0.1:33406 Closing
+[Wed Dec 31 12:27:46 2025] 127.0.0.1:44750 Accepted
+[Wed Dec 31 12:27:46 2025] 127.0.0.1:44750 [200]: GET /auth/login.php
+[Wed Dec 31 12:27:46 2025] 127.0.0.1:44750 Closing
+[Wed Dec 31 12:27:46 2025] 127.0.0.1:44766 Accepted
+[Wed Dec 31 12:27:46 2025] 127.0.0.1:44766 [200]: GET /public/css/style.css
+[Wed Dec 31 12:27:46 2025] 127.0.0.1:44766 Closing
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44738 Accepted
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44738 [302]: POST /auth/login.php
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44738 Closing
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44744 Accepted
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44744 [200]: GET /student/dashboard.php
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44744 Closing
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44750 Accepted
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44750 [200]: GET /public/css/style.css
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44750 Closing
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44766 Accepted
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44766 [200]: GET /student/create_custom_exam.php
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44766 Closing
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44782 Accepted
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44782 [200]: GET /public/css/style.css
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44782 Closing
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44792 Accepted
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44792 [302]: POST /student/create_custom_exam.php
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44792 Closing
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44806 Accepted
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44806 [200]: GET /student/dashboard.php
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44806 Closing
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44808 Accepted
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44808 [200]: GET /public/css/style.css
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44808 Closing
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44816 Accepted
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44816 [302]: POST /student/create_attempt.php
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44816 Closing
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44824 Accepted
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44824 [200]: GET /student/take_exam.php?id=4
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44824 Closing
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44826 Accepted
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44826 [200]: GET /public/css/style.css
+[Wed Dec 31 12:27:48 2025] 127.0.0.1:44826 Closing
+[Wed Dec 31 12:27:49 2025] 127.0.0.1:44836 Accepted
+[Wed Dec 31 12:27:49 2025] 127.0.0.1:44836 [302]: POST /student/submit_exam.php
+[Wed Dec 31 12:27:49 2025] 127.0.0.1:44836 Closing
+[Wed Dec 31 12:27:49 2025] 127.0.0.1:44850 Accepted
+[Wed Dec 31 12:27:49 2025] 127.0.0.1:44850 [200]: GET /student/result.php?id=4
+[Wed Dec 31 12:27:49 2025] 127.0.0.1:44850 Closing
+[Wed Dec 31 12:27:49 2025] 127.0.0.1:44854 Accepted
+[Wed Dec 31 12:27:49 2025] 127.0.0.1:44854 [200]: GET /public/css/style.css
+[Wed Dec 31 12:27:49 2025] 127.0.0.1:44854 Closing

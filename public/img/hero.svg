@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 420" role="img" aria-label="Online exam illustration">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#60a5fa"/>
+      <stop offset="1" stop-color="#2563eb"/>
+    </linearGradient>
+  </defs>
+  <circle cx="260" cy="210" r="195" fill="#ffffff" fill-opacity=".07"/>
+  <circle cx="260" cy="210" r="140" fill="#ffffff" fill-opacity=".08"/>
+
+  <!-- exam window -->
+  <rect x="70" y="70" width="360" height="270" rx="18" fill="#ffffff"/>
+  <path d="M70 88a18 18 0 0 1 18-18h324a18 18 0 0 1 18 18v22H70z" fill="#e2e8f0"/>
+  <circle cx="92" cy="90" r="5" fill="#f87171"/>
+  <circle cx="110" cy="90" r="5" fill="#fbbf24"/>
+  <circle cx="128" cy="90" r="5" fill="#4ade80"/>
+  <rect x="95" y="130" width="210" height="12" rx="6" fill="#1e3a8a"/>
+  <rect x="95" y="152" width="150" height="9" rx="4.5" fill="#cbd5e1"/>
+
+  <rect x="95" y="180" width="310" height="32" rx="10" fill="#f1f5f9"/>
+  <circle cx="115" cy="196" r="7" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="132" y="192" width="120" height="8" rx="4" fill="#cbd5e1"/>
+
+  <rect x="95" y="220" width="310" height="32" rx="10" fill="#dbeafe" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="115" cy="236" r="7" fill="none" stroke="#2563eb" stroke-width="2"/>
+  <circle cx="115" cy="236" r="3.5" fill="#2563eb"/>
+  <rect x="132" y="232" width="150" height="8" rx="4" fill="#60a5fa"/>
+
+  <rect x="95" y="260" width="310" height="32" rx="10" fill="#f1f5f9"/>
+  <circle cx="115" cy="276" r="7" fill="none" stroke="#94a3b8" stroke-width="2"/>
+  <rect x="132" y="272" width="100" height="8" rx="4" fill="#cbd5e1"/>
+
+  <rect x="95" y="312" width="310" height="8" rx="4" fill="#e2e8f0"/>
+  <rect x="95" y="312" width="190" height="8" rx="4" fill="url(#g1)"/>
+
+  <!-- timer -->
+  <circle cx="410" cy="92" r="48" fill="#ffffff"/>
+  <circle cx="410" cy="92" r="37" fill="none" stroke="#e2e8f0" stroke-width="8"/>
+  <circle cx="410" cy="92" r="37" fill="none" stroke="#2563eb" stroke-width="8" stroke-linecap="round" stroke-dasharray="170 233" transform="rotate(-90 410 92)"/>
+  <text x="410" y="98" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="700" fill="#1e3a8a">29:59</text>
+
+  <!-- passed badge -->
+  <circle cx="88" cy="332" r="40" fill="#ffffff"/>
+  <circle cx="88" cy="332" r="31" fill="#22c55e"/>
+  <path d="M74 332L84 342L103 321" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- certificate -->
+  <g transform="translate(345 262) rotate(8)">
+    <rect width="132" height="92" rx="10" fill="#ffffff" stroke="#fcd34d" stroke-width="3"/>
+    <rect x="16" y="16" width="70" height="8" rx="4" fill="#1e3a8a"/>
+    <rect x="16" y="32" width="52" height="6" rx="3" fill="#cbd5e1"/>
+    <rect x="16" y="46" width="60" height="6" rx="3" fill="#cbd5e1"/>
+    <path d="M96 60l-6 24 12-6 12 6-6-24z" fill="#f59e0b"/>
+    <circle cx="102" cy="56" r="15" fill="#fbbf24"/>
+    <circle cx="102" cy="56" r="9" fill="#f59e0b"/>
+  </g>
+</svg>
