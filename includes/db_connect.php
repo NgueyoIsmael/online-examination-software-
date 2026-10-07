@@ -1,9 +1,10 @@
 <?php
-// includes/db_connect.php  (NEW)
+// includes/db_connect.php  (REPLACES the previous version)
 // One place that opens the database connection.
 //  - On your computer (XAMPP) nothing is set, so it uses root / no password, like before.
-//  - On Vercel you set DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASS (and DB_SSL=1 if your
-//    database provider requires a secure connection) in Vercel's Environment Variables.
+//  - On Vercel you can set ONE variable, DATABASE_URL (the "Service URI" your database
+//    provider shows), or the separate DB_HOST, DB_PORT, DB_NAME, DB_USER, DB_PASS, DB_SSL.
+//    Separate DB_... variables, when present, win over DATABASE_URL.
 
 if (!function_exists('app_env')) {
     function app_env($key, $default = null) {
@@ -19,12 +20,26 @@ if (!function_exists('app_db_connect')) {
     // $die = true  -> stop the page with a message if the connection fails
     // $die = false -> throw an exception instead (used by the health check)
     function app_db_connect($die = true) {
-        $host = app_env('DB_HOST', 'localhost');
-        $port = (int)app_env('DB_PORT', 3306);
-        $name = app_env('DB_NAME', 'online_exam');
-        $user = app_env('DB_USER', 'root');
-        $pass = app_env('DB_PASS', '');
-        $ssl  = app_env('DB_SSL', '0') === '1';
+        // values from DATABASE_URL, e.g. mysql://user:password@host:3306/dbname?ssl-mode=REQUIRED
+        $parts = [];
+        $query = [];
+        $url = app_env('DATABASE_URL');
+        if ($url) {
+            $parts = parse_url($url) ?: [];
+            if (!empty($parts['query'])) {
+                parse_str($parts['query'], $query);
+            }
+        }
+        $url_db = isset($parts['path']) ? trim(rawurldecode($parts['path']), '/') : '';
+        $url_ssl_mode = strtolower((string)($query['ssl-mode'] ?? ($query['sslmode'] ?? ($query['ssl_mode'] ?? ''))));
+        $url_ssl = in_array($url_ssl_mode, ['required', 'require', 'verify_ca', 'verify_identity', 'verify-full', 'true', '1'], true) ? '1' : '0';
+
+        $host = app_env('DB_HOST', $parts['host'] ?? 'localhost');
+        $port = (int)app_env('DB_PORT', $parts['port'] ?? 3306);
+        $name = app_env('DB_NAME', $url_db !== '' ? $url_db : 'online_exam');
+        $user = app_env('DB_USER', isset($parts['user']) ? rawurldecode($parts['user']) : 'root');
+        $pass = app_env('DB_PASS', isset($parts['pass']) ? rawurldecode($parts['pass']) : '');
+        $ssl  = app_env('DB_SSL', $url_ssl) === '1';
 
         try {
             $conn = mysqli_init();
